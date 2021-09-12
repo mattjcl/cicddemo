@@ -1,0 +1,26 @@
+{
+  "name": "cicddemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattjcl/cicddemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattjcl/cicddemo/issues"
+  },
+  "homepage": "https://github.com/mattjcl/cicddemo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1",
+    "supertest": "^6.1.6"
+  }
+}
